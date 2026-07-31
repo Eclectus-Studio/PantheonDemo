@@ -1,0 +1,10 @@
+name: PantheonDemo
+description: $description
+version: '${version}'
+
+main: com.eclectusstudio.pantheonDemo.PantheonDemo
+bootstrapper: com.eclectusstudio.pantheonDemo.PantheonDemoBootstrap
+api-version: '26.2'
+load: POSTWORLD
+
+authors: [ Eclectus Studio ]
