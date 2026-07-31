@@ -12,8 +12,6 @@ public class PantheonDemoEquipment {
             new HumanoidEquipment(PantheonDemoEquipmentLocation.RUBY_EQUIPMENT),
             new HumanoidLeggingEquipment(PantheonDemoEquipmentLocation.RUBY_EQUIPMENT),
             new NautilusBodyEquipment(PantheonDemoEquipmentLocation.RUBY_EQUIPMENT),
-            new SkeletonHorseEquipment(PantheonDemoEquipmentLocation.RUBY_EQUIPMENT),
-            new WolfBodyEquipment(PantheonDemoEquipmentLocation.RUBY_EQUIPMENT),
-            new ZombieHorseEquipment(PantheonDemoEquipmentLocation.RUBY_EQUIPMENT)
+            new WolfBodyEquipment(PantheonDemoEquipmentLocation.RUBY_EQUIPMENT)
     );
 }
