@@ -3,7 +3,7 @@ package com.eclectusstudio.pantheonDemo;
 import io.papermc.paper.plugin.bootstrap.BootstrapContext;
 import io.papermc.paper.plugin.bootstrap.PluginBootstrap;
 
-class PantheonDemoBootstrap implements PluginBootstrap {
+public class PantheonDemoBootstrap implements PluginBootstrap {
 
     @Override
     public void bootstrap(final BootstrapContext context) {
