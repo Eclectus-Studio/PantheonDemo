@@ -8,7 +8,7 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 public class RubySwordItem extends TexturedSwordItem {
-    protected RubySwordItem() {
+    public RubySwordItem() {
 
         ItemStack stack = new ItemStack(Material.IRON_SWORD);
 

@@ -8,7 +8,7 @@ import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 public class RubyItem extends TexturedItem {
-    protected RubyItem() {
+    public RubyItem() {
         ItemStack stack = new ItemStack(Material.PAPER);
 
         stack.setData(DataComponentTypes.CUSTOM_NAME, Component.text("Ruby"));
