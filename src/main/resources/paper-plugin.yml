@@ -8,3 +8,15 @@ api-version: '26.2'
 load: POSTWORLD
 
 authors: [ Eclectus Studio ]
+
+dependencies:
+  bootstrap:
+    pantheon:
+      load: BEFORE
+      required: true
+      join-classpath: true
+  server:
+    pantheon:
+      load: BEFORE
+      required: true
+      join-classpath: true
