@@ -13,14 +13,13 @@ public class CopyAssetsHandler implements Listener {
     public void onCopy(CopyAssetsEvent event) {
         try {
             ResourcePackContext.extractFolder(
+                    CopyAssetsHandler.class,
                     "pantheondemo",
                     event.getPackFolder().toPath().resolve("pantheondemo")
             );
         } catch (IOException ex) {
             throw new RuntimeException(ex);
         } catch (URISyntaxException ex) {
-            throw new RuntimeException(ex);
-        } catch (ClassNotFoundException ex) {
             throw new RuntimeException(ex);
         }
     }

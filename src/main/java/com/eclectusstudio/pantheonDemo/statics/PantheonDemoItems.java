@@ -9,11 +9,13 @@ public class PantheonDemoItems {
     public static List<Item> items = List.of(
             new RubyItem(),
             new RubyAxeItem(),
+            new RubyBootsItem(),
             new RubyChestplateItem(),
             new RubyHelmetItem(),
             new RubyHoeItem(),
             new RubyHorseArmorItem(),
             new RubyLeggingsItem(),
+            new RubyNautilusArmorItem(),
             new RubyPickaxeItem(),
             new RubyShovelItem(),
             new RubySwordItem()
