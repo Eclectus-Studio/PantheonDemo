@@ -20,7 +20,7 @@ public class PantheonDemoItemLocations {
 
     public static final ResourceLocation RUBY_HORSE_ARMOR_LOCATION = new ResourceLocation(PantheonDemo.NAMESPACE, "ruby_horse_armor");
     public static final ResourceLocation RUBY_DOG_ARMOR_LOCATION = new ResourceLocation(PantheonDemo.NAMESPACE, "ruby_dog_armor");
-    public static final ResourceLocation RUBY_NAUTILUS_ARMOR_LOCATION = new ResourceLocation(PantheonDemo.NAMESPACE, "ruby_nautilus_helmet");
+    public static final ResourceLocation RUBY_NAUTILUS_ARMOR_LOCATION = new ResourceLocation(PantheonDemo.NAMESPACE, "ruby_nautilus_armor");
     
     public static final List<ResourceLocation> resourceLocations = List.of(
             RUBY_LOCATION,
