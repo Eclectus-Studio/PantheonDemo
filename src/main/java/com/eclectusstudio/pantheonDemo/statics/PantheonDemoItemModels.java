@@ -23,6 +23,8 @@ public class PantheonDemoItemModels {
     public static final ItemModels RUBY_DOG_ARMOR_ITEM_MODEL = SimpleItemModels.generated(PantheonDemoItemLocations.RUBY_DOG_ARMOR_LOCATION).createItemModels();
     public static final ItemModels RUBY_NAUTILUS_ARMOR_ITEM_MODEL = SimpleItemModels.generated(PantheonDemoItemLocations.RUBY_NAUTILUS_ARMOR_LOCATION).createItemModels();
 
+    public static final ItemModels LOCAL_FORECAST_MUSIC_DISC = SimpleItemModels.generated(PantheonDemoItemLocations.LOCAL_FORECAST_MUSIC_DISC).createItemModels();
+
     public static List<ItemModels> itemModels = List.of(
             RUBY_ITEM_MODEL,
             RUBY_SWORD_ITEM_MODEL,
@@ -36,6 +38,7 @@ public class PantheonDemoItemModels {
             RUBY_BOOTS_ITEM_MODEL,
             RUBY_HORSE_ARMOR_ITEM_MODEL,
             RUBY_DOG_ARMOR_ITEM_MODEL,
-            RUBY_NAUTILUS_ARMOR_ITEM_MODEL
+            RUBY_NAUTILUS_ARMOR_ITEM_MODEL,
+            LOCAL_FORECAST_MUSIC_DISC
     );
 }

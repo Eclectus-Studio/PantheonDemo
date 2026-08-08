@@ -6,6 +6,7 @@ import com.eclectusstudio.pantheon.common.ResourcePack;
 import com.eclectusstudio.pantheon.common.resource.equipment.Equipment;
 import com.eclectusstudio.pantheon.event.BuildResourcePackEvent;
 import com.eclectusstudio.pantheonDemo.statics.*;
+
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 
@@ -32,6 +33,8 @@ public class SubmitResourcePackHandler implements Listener {
         }
 
         pack.addFont(new ResourceLocation("minecraft","default"), PantheonDemoFont.font);
+
+        pack.setSoundsFile(PantheonDemoSounds.sounds);
 
         event.buildResourcePack(pack);
     }

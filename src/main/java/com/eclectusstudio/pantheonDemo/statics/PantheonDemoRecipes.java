@@ -1,6 +1,6 @@
 package com.eclectusstudio.pantheonDemo.statics;
 
-import com.eclectusstudio.pantheonDemo.recipe.*;
+import com.eclectusstudio.pantheonDemo.recipes.*;
 import org.bukkit.Bukkit;
 
 public class PantheonDemoRecipes {

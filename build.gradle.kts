@@ -12,8 +12,8 @@ repositories {
 
 dependencies {
     paperweight.paperDevBundle("26.2.build.+")
-    compileOnly("com.github.Eclectus-Studio.Pantheon:paper:Alpha-0.2.9")
-    compileOnly("com.github.Eclectus-Studio.Pantheon:common:Alpha-0.2.9")
+    compileOnly("com.github.Eclectus-Studio.Pantheon:paper:Alpha-0.3.0")
+    compileOnly("com.github.Eclectus-Studio.Pantheon:common:Alpha-0.3.0")
 }
 
 java {

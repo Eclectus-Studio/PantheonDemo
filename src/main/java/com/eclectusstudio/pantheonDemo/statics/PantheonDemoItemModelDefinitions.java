@@ -45,6 +45,9 @@ public class PantheonDemoItemModelDefinitions {
     public static final ItemModelDefinition RUBY_NAUTILUS_ARMOR_ITEM_MODEL_DEFINITION =
             SimpleItemModels.generated(PantheonDemoItemLocations.RUBY_NAUTILUS_ARMOR_LOCATION).createDefinition();
 
+    public static final ItemModelDefinition LOCAL_FORECAST_MUSIC_DISC =
+            SimpleItemModels.generated(PantheonDemoItemLocations.LOCAL_FORECAST_MUSIC_DISC).createDefinition();
+
     public static final List<ItemModelDefinition> itemModelDefinitions = List.of(
             RUBY_ITEM_MODEL_DEFINITION,
             RUBY_SWORD_ITEM_MODEL_DEFINITION,
@@ -58,6 +61,7 @@ public class PantheonDemoItemModelDefinitions {
             RUBY_BOOTS_ITEM_MODEL_DEFINITION,
             RUBY_HORSE_ARMOR_ITEM_MODEL_DEFINITION,
             RUBY_DOG_ARMOR_ITEM_MODEL_DEFINITION,
-            RUBY_NAUTILUS_ARMOR_ITEM_MODEL_DEFINITION
+            RUBY_NAUTILUS_ARMOR_ITEM_MODEL_DEFINITION,
+            LOCAL_FORECAST_MUSIC_DISC
     );
 }

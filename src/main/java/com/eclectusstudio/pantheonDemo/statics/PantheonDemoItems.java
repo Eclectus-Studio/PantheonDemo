@@ -18,6 +18,7 @@ public class PantheonDemoItems {
             new RubyNautilusArmorItem(),
             new RubyPickaxeItem(),
             new RubyShovelItem(),
-            new RubySwordItem()
+            new RubySwordItem(),
+            new LocalForecastMusicDiscItem()
     );
 }
