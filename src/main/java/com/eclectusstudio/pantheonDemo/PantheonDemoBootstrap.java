@@ -9,7 +9,7 @@ public class PantheonDemoBootstrap implements PluginBootstrap {
 
     @Override
     public void bootstrap(final BootstrapContext context) {
-        // Plugin bootstrap logic
+        // Submit Datapack
         DatapackSubmission.submit(PantheonDemoDatapack.PANTHEON_DATAPACK);
     }
 }
