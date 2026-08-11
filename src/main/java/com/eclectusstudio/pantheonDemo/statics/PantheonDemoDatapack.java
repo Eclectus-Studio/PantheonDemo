@@ -7,6 +7,7 @@ import com.eclectusstudio.pantheonDemo.chicken.RedChickenVariant;
 import com.eclectusstudio.pantheonDemo.cow.RedCowVariant;
 import com.eclectusstudio.pantheonDemo.frog.RedFrogVariant;
 import com.eclectusstudio.pantheonDemo.pig.RedPigVariant;
+import com.eclectusstudio.pantheonDemo.wolf.RedWolfVariant;
 
 public class PantheonDemoDatapack {
     public static Datapack PANTHEON_DATAPACK = new Datapack();
@@ -25,5 +26,7 @@ public class PantheonDemoDatapack {
         PANTHEON_DATAPACK.addFrogVariant(new RedFrogVariant());
 
         PANTHEON_DATAPACK.addPigVariant(new RedPigVariant());
+
+        PANTHEON_DATAPACK.addWofVariant(new RedWolfVariant());
     }
 }
