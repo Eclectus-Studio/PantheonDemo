@@ -30,9 +30,9 @@ public class RedWolfVariant extends WolfVariant {
                         new ResourceLocation(PantheonDemo.NAMESPACE, "entity/wolf/red_wild")
                 ),
                 new WolfModel(
-                        new ResourceLocation(PantheonDemo.NAMESPACE, "entity/wolf/red_angry_baby"),
-                        new ResourceLocation(PantheonDemo.NAMESPACE, "entity/wolf/red_tame_baby"),
-                        new ResourceLocation(PantheonDemo.NAMESPACE, "entity/wolf/red_wild_baby")
+                        new ResourceLocation(PantheonDemo.NAMESPACE, "entity/wolf/red_baby_angry"),
+                        new ResourceLocation(PantheonDemo.NAMESPACE, "entity/wolf/red_baby_tame"),
+                        new ResourceLocation(PantheonDemo.NAMESPACE, "entity/wolf/red_baby_wild")
                 ),
                 spawnConditions);
     }

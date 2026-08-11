@@ -25,7 +25,7 @@ public class RedPigVariant extends PigVariant {
         super(
                 new ResourceLocation(PantheonDemo.NAMESPACE,"red_pig"),
                 new ResourceLocation(PantheonDemo.NAMESPACE, "entity/pig/red"),
-                new ResourceLocation(PantheonDemo.NAMESPACE, "entity/frog/red_baby"),
+                new ResourceLocation(PantheonDemo.NAMESPACE, "entity/pig/red_baby"),
                 PigModelVariant.NORMAL,
                 spawnConditions);
     }
