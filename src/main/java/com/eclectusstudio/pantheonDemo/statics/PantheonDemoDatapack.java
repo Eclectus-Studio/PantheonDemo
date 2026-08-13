@@ -6,6 +6,8 @@ import com.eclectusstudio.pantheonDemo.cats.RedCatVariant;
 import com.eclectusstudio.pantheonDemo.chicken.RedChickenVariant;
 import com.eclectusstudio.pantheonDemo.cow.RedCowVariant;
 import com.eclectusstudio.pantheonDemo.frog.RedFrogVariant;
+import com.eclectusstudio.pantheonDemo.jukeboxsongs.LocalForecastJukeboxSong;
+import com.eclectusstudio.pantheonDemo.paintings.PigPainting;
 import com.eclectusstudio.pantheonDemo.pig.RedPigVariant;
 import com.eclectusstudio.pantheonDemo.wolf.RedWolfVariant;
 
@@ -13,9 +15,7 @@ public class PantheonDemoDatapack {
     public static Datapack PANTHEON_DATAPACK = new Datapack();
 
     static {
-        for(JukeboxSong song : PantheonDemoJukeboxSongs.songs) {
-            PANTHEON_DATAPACK.addJukeboxSong(song);
-        }
+        PANTHEON_DATAPACK.addJukeboxSong(new LocalForecastJukeboxSong());
 
         PANTHEON_DATAPACK.addCatVariant(new RedCatVariant());
 
@@ -28,5 +28,7 @@ public class PantheonDemoDatapack {
         PANTHEON_DATAPACK.addPigVariant(new RedPigVariant());
 
         PANTHEON_DATAPACK.addWofVariant(new RedWolfVariant());
+
+        PANTHEON_DATAPACK.addPaintingVariant(new PigPainting());
     }
 }

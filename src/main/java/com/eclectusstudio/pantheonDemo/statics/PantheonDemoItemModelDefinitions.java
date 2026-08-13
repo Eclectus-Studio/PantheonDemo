@@ -39,8 +39,8 @@ public class PantheonDemoItemModelDefinitions {
     public static final ItemModelDefinition RUBY_HORSE_ARMOR_ITEM_MODEL_DEFINITION =
             SimpleItemModels.generated(PantheonDemoItemLocations.RUBY_HORSE_ARMOR_LOCATION).createDefinition();
 
-    public static final ItemModelDefinition RUBY_DOG_ARMOR_ITEM_MODEL_DEFINITION =
-            SimpleItemModels.generated(PantheonDemoItemLocations.RUBY_DOG_ARMOR_LOCATION).createDefinition();
+    public static final ItemModelDefinition RUBY_WOLF_ARMOR_ITEM_MODEL_DEFINITION =
+            SimpleItemModels.generated(PantheonDemoItemLocations.RUBY_WOLF_ARMOR_LOCATION).createDefinition();
 
     public static final ItemModelDefinition RUBY_NAUTILUS_ARMOR_ITEM_MODEL_DEFINITION =
             SimpleItemModels.generated(PantheonDemoItemLocations.RUBY_NAUTILUS_ARMOR_LOCATION).createDefinition();
@@ -60,7 +60,7 @@ public class PantheonDemoItemModelDefinitions {
             RUBY_LEGGINGS_ITEM_MODEL_DEFINITION,
             RUBY_BOOTS_ITEM_MODEL_DEFINITION,
             RUBY_HORSE_ARMOR_ITEM_MODEL_DEFINITION,
-            RUBY_DOG_ARMOR_ITEM_MODEL_DEFINITION,
+            RUBY_WOLF_ARMOR_ITEM_MODEL_DEFINITION,
             RUBY_NAUTILUS_ARMOR_ITEM_MODEL_DEFINITION,
             LOCAL_FORECAST_MUSIC_DISC
     );

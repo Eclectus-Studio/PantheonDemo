@@ -19,7 +19,7 @@ public class PantheonDemoItemLocations {
     public static final ResourceLocation RUBY_BOOTS_LOCATION = new ResourceLocation(PantheonDemo.NAMESPACE, "ruby_boots");
 
     public static final ResourceLocation RUBY_HORSE_ARMOR_LOCATION = new ResourceLocation(PantheonDemo.NAMESPACE, "ruby_horse_armor");
-    public static final ResourceLocation RUBY_DOG_ARMOR_LOCATION = new ResourceLocation(PantheonDemo.NAMESPACE, "ruby_dog_armor");
+    public static final ResourceLocation RUBY_WOLF_ARMOR_LOCATION = new ResourceLocation(PantheonDemo.NAMESPACE, "ruby_wolf_armor");
     public static final ResourceLocation RUBY_NAUTILUS_ARMOR_LOCATION = new ResourceLocation(PantheonDemo.NAMESPACE, "ruby_nautilus_armor");
 
     public static final ResourceLocation LOCAL_FORECAST_MUSIC_DISC = new ResourceLocation(PantheonDemo.NAMESPACE, "local_forecast_music_disc");
@@ -36,7 +36,7 @@ public class PantheonDemoItemLocations {
             RUBY_LEGGINGS_LOCATION,
             RUBY_BOOTS_LOCATION,
             RUBY_HORSE_ARMOR_LOCATION,
-            RUBY_DOG_ARMOR_LOCATION,
+            RUBY_WOLF_ARMOR_LOCATION,
             RUBY_NAUTILUS_ARMOR_LOCATION,
             LOCAL_FORECAST_MUSIC_DISC
     );
