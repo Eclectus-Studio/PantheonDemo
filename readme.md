@@ -24,3 +24,10 @@ Clone this repository and explore the source code to see how Ruby items are impl
 ## Purpose
 
 This project is provided as a learning resource and reference implementation for developers building plugins with the Pantheon API.
+
+
+## Live demo
+
+Join a the official demo server on version 26.2 at
+
+```pantheomdemo.minekeep.gg```
