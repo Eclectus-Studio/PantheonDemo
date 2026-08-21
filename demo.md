@@ -6,7 +6,9 @@ A demonstration project built for **Pantheon**, showcasing custom items, equipme
 
 ---
 
-# 🎮 DEMO SERVER
+# 🎮 DEMO SERVER 
+
+## The server will auto start on join.
 
 # `pantheondemo.minekeep.gg`
 
